@@ -1,0 +1,44 @@
+a {
+    color: purple;
+    font-size: 20px;
+}
+
+a:hover {
+    color: brown;
+}
+
+.b {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.c {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.d {
+    font-size: 20px;
+}
+
+.e {
+    background-color: rgb(255, 208, 0);
+    height: 35px;
+    width: 145px;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    transition: opacity 0.06s;
+
+}
+
+.e:hover {
+    background-color:  rgb(240, 186, 2);
+}
+
+.e:active {
+    opacity: 0.3;
+
+}
