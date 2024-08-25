@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .grid {
+                display: grid;
+                grid-template-columns: 200px 75px;
+            }
+
+            .grid2 {
+                display: grid;
+                grid-template-columns: 50px 1fr 75px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+
+            .third-exercise {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 10px;
+                
+            }
+
+        
+        </style>
+    </head>
+<body>
+    <div class="grid">
+    <div style="background-color: pink;">200px</div>
+     <div style="background-color: blue;">75px</div>    
+    </div>
+
+    <div class="grid2">
+        <div style="background-color: pink;">col1</div>
+        <div style="background-color: blue;">col2</div>
+        <div style="background-color: pink;">col3</div>
+    </div>
+
+
+    <div class="third-exercise">
+        <div style="background-color: pink;">col1</div>
+        <div style="background-color: blue;">col2</div>
+        <div style="background-color: pink;">col3</div>
+        <div style="background-color: blue;">col4</div>
+   
+
+   
+        <div style="background-color: blue;">col1</div>
+        <div style="background-color: pink;">col2</div>
+        <div style="background-color: blue;">col3</div>
+        <div style="background-color: pink;">col4</div>
+   
+</div>
+</body>
+</html>
