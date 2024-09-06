@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0;
+                background-color: black;
+                display: flex;
+                flex-direction: column;
+                border:solid;
+                border-color: rgb(4, 4, 91);
+                border-width: 20px
+                
+            }
+
+
+            .bigbox{
+                display: flex;
+                justify-content: center;
+                column-gap: 75px;
+                margin-top: 50px;
+                margin-bottom: 30px;   
+            }
+
+            .heading{
+                color: rgb(245, 72, 245);
+                display: flex;
+                justify-content: center;
+                font-family: arial;
+                font-size: 40px;
+                font-weight: bold;
+                background-color: blue;
+                margin: 0;
+                
+            }
+            .smallbox{
+                height: 150px;
+                width: 325px;
+                background-color: cyan;
+                box-shadow: 1px 1px 30px rgba(190, 190, 190, 10);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: arial;
+                font-size: 40px;
+                font-weight: bold;
+                transition: 1s;
+                
+            }
+
+            .smallbox:hover{
+                scale: 2;
+            }
+        </style>
+    </head>
+    <body>
+
+        <p class="heading">Casual Exercise</p>
+        
+        <div class="bigbox">
+        <div  style="color: blue;" class="smallbox">Hello</div>
+        <div style="color: yellow;" class="smallbox">This</div>
+        </div>
+
+        <div class="bigbox">
+        <div style="color: red;" class="smallbox">Is</div>
+        <div style="color: orange;"class="smallbox">Just</div>
+        </div>
+
+        <div class="bigbox">
+        <div style="color: indigo;"class="smallbox">Practice</div>
+        <div style="color: pink;"class="smallbox">Work</div>
+        </div>
+
+        <div class="bigbox">
+        <div style="color: green;"class="smallbox">:D</div>
+        <div style="color: blue;"class="smallbox">:D</div>
+        </div>
+
+        <div class="bigbox">
+        <div style="color: violet;" class="smallbox">:D</div>
+        <div style="color: purple;"class="smallbox">:D</div>
+        </div>
+    
+    </body>
+</html>
